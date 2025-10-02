@@ -24,6 +24,6 @@ public class CarroTest01 {
         System.out.println("Modelo: " +carro2.modelo+"\n");
         System.out.println("Ano: "+ carro2.ano+"\n");
 
-        System.out.println("TTTTTTTTTTTTEEEEEEEEEEEEEEEEEEEEEEESSSSSSSSSSSSTTTTTTTTTEEEEEEEEE");
+
     }
 }
