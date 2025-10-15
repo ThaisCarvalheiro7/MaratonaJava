@@ -7,11 +7,13 @@ public class funcionarioTeste {
         Scanner sc = new Scanner(System.in);
         Funcionario executar = new Funcionario();
 
-
+/*
         System.out.println("NOME DOS FUNCIONÁRIOS: ");
         Funcionario func1 = new Funcionario();
         System.out.println("Funcionário 1: ");
-        func1.nome = sc.next();
+        func1.setNome("Thais");
+        func1.setIdade(21);
+        func1.setSalarios();
         Funcionario func2 = new Funcionario();
         System.out.println("Funcionário 2:" );
         func2.nome = sc.next();
@@ -29,6 +31,6 @@ public class funcionarioTeste {
 
         System.out.println("SALARIOS");
 
-
+*/
     }
 }
