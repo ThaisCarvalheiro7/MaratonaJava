@@ -7,23 +7,26 @@ public class Anime {
     private String genero;
     private String estudio;
 
-    public Anime(String nome, String tipo, int episodios, String genero){
-        System.out.println(this.nome);
-        System.out.println(this.tipo);
-        System.out.println(this.episodios);
-        System.out.println(this.genero);
-        System.out.println(this.estudio);
+    public Anime(String nome, String tipo, String genero, int episodios){
+        this();
+        this.nome = nome;
+        this.genero = genero;
+        this.episodios = episodios;
+        this.tipo = tipo;
     }
-    public Anime(){
+    public Anime(String nome, String tipo, String genero, int episodios, String estudio){
+        this(nome, tipo, genero, episodios);
+        this.estudio = estudio;
+    }
+    public Anime (){
 
     }
-
     public void imprimeAnime(){
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.episodios);
         System.out.println(this.genero);
-        System.out.println(this.estudio);
+
     }
 
     public void setTipo(String tipo){
